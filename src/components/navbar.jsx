@@ -3,7 +3,7 @@ import $ from "jquery";
 
 import logo1 from "../img/Shohan.png";
 import logo2 from "../img/Shohan.png";
-import cv from "../Content/Placement Agreement_Shohan Saverimuttu_20191184_CS.pdf";
+import cv from "../Content/ShohanAnthony_CV.pdf";
 
 class Navbar extends React.Component {
   constructor() {
@@ -133,12 +133,12 @@ class Navbar extends React.Component {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="Placement Agreement_Shohan Saverimuttu_20191184_CS.pdf" download>
+                <a className="nav-link js-scroll" href={cv} download = "ShohanSaverimuttu_CV.pdf">
                   <p class = "icon ion-ios-bookmarks-outline"> Dowload CV</p>
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link js-scroll" href="tel:71-864-0117" download>
+                <a className="nav-link js-scroll" href="tel:71-864-0117" >
                   <p class = "icon ion-android-call"> +94 71-864-0117</p>
                 </a>
               </li>
