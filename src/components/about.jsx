@@ -6,55 +6,106 @@ class About extends React.Component {
     super();
     this.state = {
       skills: [
-        { id: "HTML5_skill", content: "HTML5", porcentage: "80%", value: "80" },
-        { id: "CSS3_skill", content: "CSS3", porcentage: "75%", value: "75" },
+        { id: "HTML5&CSS_skill", content: "HTML5 & CSS" },
+        { id: "Java_skill", content: "JAVA" },
         {
           id: "JavaScript_skill",
-          content: "JavaScript",
-          porcentage: "90%",
-          value: "90"
+          content: "JavaScript"
         },
-        { id: "PHP_skill", content: "PHP", porcentage: "70%", value: "70" },
+        { id: "SQL_skill", content: "SQL" },
         {
           id: "ReactJS_skill",
-          content: "ReactJS",
-          porcentage: "80%",
-          value: "80"
+          content: "ReactJS"
+          
         },
         {
           id: "Python_skill",
-          content: "Python",
-          porcentage: "75%",
-          value: "75"
+          content: "Python"
         },
         {
-          id: "VanillaJS_skill",
-          content: "VanillaJS",
-          porcentage: "85%",
-          value: "85"
+          id: "Node_skill",
+          content: "Node.JS"
         },
         {
-          id: "Wordpress_skill",
-          content: "Wordpress",
-          porcentage: "80%",
-          value: "80"
+          id: "R_skill",
+          content: "R Language"
         }
       ],
       about_me: [
         {
           id: "first-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "Passionate Computer Science Student that is currently perusing a BSc (Hons) in Computer Science at the Informatics Institute of Technology. Diplomatic, personable, and adept at managing sensitive situations. Highly organized, self-motivated, and proficient with computers." 
+            
+             
+             
+            
         },
         {
           id: "second-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+            "My exorbitant interest in anything and everything renewable, sustainable and technological. Always willing to learn and grow, one step at a time to expand my horizon and put myself into uncomfortable positions to better my experience and exposure. Seeking to further my capabilities and challenge myself with greater opportunities to test and learn newer technologies and approaches at managing, working and solving unchartered problems."
+        }
+      ],
+      education: [
+        {
+          id: "first-p-about",
+          content:
+            <p ><b><u> Informatic Institute of Technology</u></b></p>
+
+        },
+        {
+          id: "second-p-about",
+          content:
+          <p class="icon ion-ios-calendar-outline"> 2020 - 2023</p>
+        },
+        {
+          id: "second-p-about",
+          content:
+          <p class="icon ion-location"> 57 Ramakrishna Rd, Colombo. Affiliated  to the University of Westminster London. </p>
         },
         {
           id: "third-p-about",
           content:
-            "Lorem ipsum pariatur consectetur laboris occaecat nulla aliqua irure ad deserunt duis. Eiusmod nulla cupidatat labore sint sit aute dolore irure nostrud ut incididunt. Anim laborum reprehenderit labore magna ut dolore quis irure. Labore ea duis deserunt ullamco irure fugiat deserunt ut nisi ea minim proident. Nisi consectetur do non magna duis aliqua minim minim veniam. In occaecat minim qui consequat elit mollit consectetur non id tempor. Amet adipisicing occaecat tempor culpa quis est duis."
+          <p class="icon ion-ios-book"> Persuing a BSc (HONS) Computer Science</p>
+            
+        },
+        {
+          id: "third-p-about",
+          content:
+          <p ><b> <u>LPF Academy</u></b></p>
+            
+        },
+        {
+          id: "second-p-about",
+          content:
+          <p class="icon ion-ios-calendar-outline"> 2014 - 2019</p>
+        },
+        {
+          id: "second-p-about",
+          content:
+          <p class="icon ion-location">  244A Galvihara Rd, Dehiwala-Mount Lavinia.</p>
+        },
+        {
+          id: "second-p-about",
+          content:
+          <p class="icon ion-ios-book"> Completed Cambridge GCE AL & Cambridge IGCSE</p>
+        },
+        {
+          id: "third-p-about",
+          content:
+          <p class="icon ion-location"><b> <u>Royal Institute of Colombo</u></b></p>
+            
+        },
+        {
+          id: "second-p-about",
+          content:
+          <p class="icon ion-location">  Havalock, Colombo 05.</p>
+        },
+        {
+          id: "second-p-about",
+          content:
+          <p class="icon ion-ios-calendar-outline"> 2006 - 2014</p>
         }
       ]
     };
@@ -86,7 +137,7 @@ class About extends React.Component {
                       </div>
                     </div>
                     <div className="skill-mf">
-                      {/* <p className="title-s">Skill</p> */}
+                      { <p className="title-s">Professional Skill</p> }
                       {this.state.skills.map(skill => {
                         return (
                           <React.Fragment key={skill.id}>
@@ -115,6 +166,20 @@ class About extends React.Component {
                         <h5 className="title-left">About Me</h5>
                       </div>
                       {this.state.about_me.map(content => {
+                        return (
+                          <p className="lead" key={content.id}>
+                            {content.content}
+                          </p>
+                        );
+                      })}
+                    </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="about-me pt-4 pt-md-0">
+                      <div className="title-box-2">
+                        <h5 className="title-left">Education</h5>
+                      </div>
+                      {this.state.education.map(content => {
                         return (
                           <p className="lead" key={content.id}>
                             {content.content}

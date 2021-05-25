@@ -1,8 +1,9 @@
 import React from "react";
 import $ from "jquery";
 
-import logo1 from "../img/male1.png";
-import logo2 from "../img/male.png";
+import logo1 from "../img/Shohan.png";
+import logo2 from "../img/Shohan.png";
+import cv from "../Content/Placement Agreement_Shohan Saverimuttu_20191184_CS.pdf";
 
 class Navbar extends React.Component {
   constructor() {
@@ -129,6 +130,16 @@ class Navbar extends React.Component {
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
                   Contact
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="Placement Agreement_Shohan Saverimuttu_20191184_CS.pdf" download>
+                  <p class = "icon ion-ios-bookmarks-outline"> Dowload CV</p>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="tel:71-864-0117" download>
+                  <p class = "icon ion-android-call"> +94 71-864-0117</p>
                 </a>
               </li>
             </ul>

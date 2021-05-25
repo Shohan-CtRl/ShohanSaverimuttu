@@ -240,6 +240,7 @@ a:hover {
 .list-ico span {
   color: #0078ff;
   margin-right: 10px;
+  white-space:pre;
 }
 
 /* Ico Circle */
@@ -719,6 +720,7 @@ PORTFOLIO
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  
 }
 
 .work-content .w-more {

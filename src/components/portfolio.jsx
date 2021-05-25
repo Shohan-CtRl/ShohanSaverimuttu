@@ -1,6 +1,17 @@
 import React from "react";
 
 //import stock
+import Proj_PikaiaLogo from "../img/PIKAIA_Logo.jpeg";
+import Proj_PikaiaHome from "../img/PIKAIA_Home.jpeg";
+import Proj_PikaiaChat from "../img/PIKAIA_Chat.jpeg";
+import Proj_PikaiaMusic from "../img/PIKAIA_MusicRec.jpeg";
+import Proj_PikaiaChart from "../img/PIKAIA_EmotionChart.jpeg";
+import Proj_PikaiaSetting from "../img/PIKAIA_Setting.jpeg";
+
+import Proj_GateIn from "../img/GateIn.png";
+
+import Proj_comingSoon from "../img/comingSoon.png";
+
 import stock from "../img/image1.jpg";
 import stock1 from "../img/image2.jpg";
 import stock2 from "../img/image3.jpg";
@@ -18,8 +29,7 @@ class Portfolio extends React.Component {
               <div className="title-box text-center">
                 <h3 className="title-a">Portfolio</h3>
                 <p className="subtitle-a">
-                  Incididunt nostrud id aute culpa excepteur pariatur consequat
-                  elit culpa nulla enim anim incididunt.
+                  Description 
                 </p>
                 <div className="line-mf"></div>
               </div>
@@ -28,141 +38,152 @@ class Portfolio extends React.Component {
           <div className="row">
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-vmarine">
+                <a href={Proj_PikaiaHome} data-lightbox="gallery-vmarine">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={Proj_PikaiaLogo} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Project PIKAIA</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap ReactJS
+                          (Group project): Node.js | ReactJS | Chart.js | Azure cloud | Flask | <b>Summary</b>:
+                          Metal wellbeing companion, utilising binaural beats and music to effectivily combate negative mental health.
                           </span>
+                          
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                          <span className="icon ion-more"></span>
+                          
                         </div>
                       </div>
                     </div>
                   </div>
                 </a>
                 <a
-                  href={stock1}
+                  href={Proj_PikaiaHome}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock2}
+                  href={Proj_PikaiaChat}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock3}
+                  href={Proj_PikaiaMusic}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock4}
+                  href={Proj_PikaiaChart}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
                 </a>
                 <a
-                  href={stock5}
+                  href={Proj_PikaiaSetting}
                   data-lightbox="gallery-vmarine"
                   style={{ display: "none" }}
                 >
                   jsx-a11y/anchor-has-content warning
+                </a>
+                <a
+                  href="https://github.com/PIKAIA-project/PIKAIA-REST"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <span>
+                  <i className="ion-social-github">GITHUB </i>
+                </span>
+                </a>
+                <a
+                  href="https://project-pikaia.azurewebsites.net/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                <span>
+                  <i className="icon icon ion-ios-eye">DEMO</i>
+                </span>
                 </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-aguadeluz">
+                <a href={Proj_GateIn} data-lightbox="gallery-aguadeluz">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={Proj_GateIn} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">GateIn</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack SmoothScrolling
-                            VanillaJS
+                            (Group Project) Successfully completed a project for a Client using: word press template(Client requirment)| HTML | CSS | PHP | JavaScript. Figma concept shown below...            
                           </span>{" "}
                         </div>
                       </div>
                       <div className="col-sm-4">
                         <div className="w-like">
-                          <span className="ion-ios-plus-outline"></span>
+                          <span className=""></span>
                         </div>
                       </div>
                     </div>
                   </div>
                 </a>
+                
                 <a
-                  href={stock1}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
+                  // href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  jsx-a11y/anchor-has-content warning
+                <span>
+                  <i className="ion-social-github">GITHUB </i>
+                </span>
                 </a>
                 <a
-                  href={stock2}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
+                  href="https://www.figma.com/proto/pmcTPXqlTpXcEJkjlvbV0S/Gate-in?node-id=122%3A2&viewport=567%2C170%2C0.08764342963695526&scaling=min-zoom"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock3}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock4}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
-                </a>
-                <a
-                  href={stock5}
-                  data-lightbox="gallery-aguadeluz"
-                  style={{ display: "none" }}
-                >
-                  jsx-a11y/anchor-has-content warning
+                <span>
+                  <i className="icon icon ion-ios-eye">DEMO</i>
+                </span>
                 </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="work-box">
-                <a href={stock} data-lightbox="gallery-todo">
+                <a href={Proj_comingSoon} data-lightbox="gallery-todo">
                   <div className="work-img">
-                    <img src={stock} alt="" className="img-fluid" />
+                    <img src={Proj_comingSoon} alt="" className="img-fluid" />
                   </div>
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Project incoming</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
-                            HTML5 CSS3 Bootstrap Webpack ReactJS
+                            More Projects in the pipeline...
                           </span>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <p>&nbsp;</p>
+                          <span className="w-ctegory">
+                            COMING SOON!
+                          </span>
+                    
                           {/*} / <span className="w-date">18 Sep. 2018</span>*/}
                         </div>
                       </div>
@@ -211,7 +232,7 @@ class Portfolio extends React.Component {
                 </a>
               </div>
             </div>
-            <div className="col-md-4">
+            {/* <div className="col-md-4">
               <div className="work-box">
                 <a href={stock} data-lightbox="gallery-medlingos">
                   <div className="work-img">
@@ -220,7 +241,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Container 4</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             Bootstrap ReactJS GoogleAPI
@@ -281,7 +302,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Container 5</h2>
                         <div className="w-more">
                           <span className="w-ctegory">MERN</span>
                         </div>
@@ -340,7 +361,7 @@ class Portfolio extends React.Component {
                   <div className="work-content">
                     <div className="row">
                       <div className="col-sm-8">
-                        <h2 className="w-title">Lorem Ipsum</h2>
+                        <h2 className="w-title">Container 6</h2>
                         <div className="w-more">
                           <span className="w-ctegory">
                             HTML5 CSS3 Bootstrap MERN
@@ -391,7 +412,7 @@ class Portfolio extends React.Component {
                   jsx-a11y/anchor-has-content warning
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
