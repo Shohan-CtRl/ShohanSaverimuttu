@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c5a03400bedc85987885f3c439ecda9",
+    "revision": "54000a4b68375d5aa8d7af648273eb40",
     "url": "/ShohanSaverimuttu/index.html"
   },
   {
-    "revision": "cbcc6e8cf4297640c4e3",
+    "revision": "d2422bf319abd7df4edd",
     "url": "/ShohanSaverimuttu/static/css/2.f6122f81.chunk.css"
   },
   {
-    "revision": "e38fe5c8f26cda652781",
+    "revision": "458f2df0348927bd74c2",
     "url": "/ShohanSaverimuttu/static/css/main.f4f0d9c2.chunk.css"
   },
   {
-    "revision": "cbcc6e8cf4297640c4e3",
-    "url": "/ShohanSaverimuttu/static/js/2.06a88891.chunk.js"
+    "revision": "d2422bf319abd7df4edd",
+    "url": "/ShohanSaverimuttu/static/js/2.b20df316.chunk.js"
   },
   {
     "revision": "8db2ae7ab4d8b47464b2fceb420c9eb7",
-    "url": "/ShohanSaverimuttu/static/js/2.06a88891.chunk.js.LICENSE.txt"
+    "url": "/ShohanSaverimuttu/static/js/2.b20df316.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e38fe5c8f26cda652781",
-    "url": "/ShohanSaverimuttu/static/js/main.8fb7785f.chunk.js"
+    "revision": "458f2df0348927bd74c2",
+    "url": "/ShohanSaverimuttu/static/js/main.ad86d34d.chunk.js"
   },
   {
     "revision": "9085eb29f31c8382c702",
@@ -56,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ShohanSaverimuttu/static/media/PIKAIA_Setting.10c47714.jpeg"
   },
   {
-    "revision": "1249dda5a784587e8a8062baa313e4a5",
-    "url": "/ShohanSaverimuttu/static/media/Placement Agreement_Shohan Saverimuttu_20191184_CS.1249dda5.pdf"
-  },
-  {
     "revision": "7b8f961401ac2dd40fc8c3fe163ebf4c",
     "url": "/ShohanSaverimuttu/static/media/Shohan.7b8f9614.png"
+  },
+  {
+    "revision": "63bb22c5f046c1add9e1ffb14015c474",
+    "url": "/ShohanSaverimuttu/static/media/ShohanAnthony_CV.63bb22c5.pdf"
   },
   {
     "revision": "b289400cf6036fb4f0f1349bf37ab5c1",

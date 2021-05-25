@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/ShohanSaverimuttu/static/css/main.f4f0d9c2.chunk.css",
-    "main.js": "/ShohanSaverimuttu/static/js/main.8fb7785f.chunk.js",
-    "main.js.map": "/ShohanSaverimuttu/static/js/main.8fb7785f.chunk.js.map",
+    "main.js": "/ShohanSaverimuttu/static/js/main.ad86d34d.chunk.js",
+    "main.js.map": "/ShohanSaverimuttu/static/js/main.ad86d34d.chunk.js.map",
     "runtime-main.js": "/ShohanSaverimuttu/static/js/runtime-main.7ea3b8eb.js",
     "runtime-main.js.map": "/ShohanSaverimuttu/static/js/runtime-main.7ea3b8eb.js.map",
     "static/css/2.f6122f81.chunk.css": "/ShohanSaverimuttu/static/css/2.f6122f81.chunk.css",
-    "static/js/2.06a88891.chunk.js": "/ShohanSaverimuttu/static/js/2.06a88891.chunk.js",
-    "static/js/2.06a88891.chunk.js.map": "/ShohanSaverimuttu/static/js/2.06a88891.chunk.js.map",
+    "static/js/2.b20df316.chunk.js": "/ShohanSaverimuttu/static/js/2.b20df316.chunk.js",
+    "static/js/2.b20df316.chunk.js.map": "/ShohanSaverimuttu/static/js/2.b20df316.chunk.js.map",
     "index.html": "/ShohanSaverimuttu/index.html",
-    "precache-manifest.3e5091de420e0733c7fac6a76a21d42f.js": "/ShohanSaverimuttu/precache-manifest.3e5091de420e0733c7fac6a76a21d42f.js",
+    "precache-manifest.dfcb7b2c76ca68f7237515b2b3d86bf9.js": "/ShohanSaverimuttu/precache-manifest.dfcb7b2c76ca68f7237515b2b3d86bf9.js",
     "service-worker.js": "/ShohanSaverimuttu/service-worker.js",
     "static/css/2.f6122f81.chunk.css.map": "/ShohanSaverimuttu/static/css/2.f6122f81.chunk.css.map",
     "static/css/main.f4f0d9c2.chunk.css.map": "/ShohanSaverimuttu/static/css/main.f4f0d9c2.chunk.css.map",
-    "static/js/2.06a88891.chunk.js.LICENSE.txt": "/ShohanSaverimuttu/static/js/2.06a88891.chunk.js.LICENSE.txt",
+    "static/js/2.b20df316.chunk.js.LICENSE.txt": "/ShohanSaverimuttu/static/js/2.b20df316.chunk.js.LICENSE.txt",
     "static/media/GateIn.png": "/ShohanSaverimuttu/static/media/GateIn.c29b0b23.png",
     "static/media/PIKAIA_Chat.jpeg": "/ShohanSaverimuttu/static/media/PIKAIA_Chat.ccb2a760.jpeg",
     "static/media/PIKAIA_EmotionChart.jpeg": "/ShohanSaverimuttu/static/media/PIKAIA_EmotionChart.01c104ca.jpeg",
@@ -21,8 +21,8 @@
     "static/media/PIKAIA_Logo.jpeg": "/ShohanSaverimuttu/static/media/PIKAIA_Logo.e0bea5e4.jpeg",
     "static/media/PIKAIA_MusicRec.jpeg": "/ShohanSaverimuttu/static/media/PIKAIA_MusicRec.7edd3c42.jpeg",
     "static/media/PIKAIA_Setting.jpeg": "/ShohanSaverimuttu/static/media/PIKAIA_Setting.10c47714.jpeg",
-    "static/media/Placement Agreement_Shohan Saverimuttu_20191184_CS.pdf": "/ShohanSaverimuttu/static/media/Placement Agreement_Shohan Saverimuttu_20191184_CS.1249dda5.pdf",
     "static/media/Shohan.png": "/ShohanSaverimuttu/static/media/Shohan.7b8f9614.png",
+    "static/media/ShohanAnthony_CV.pdf": "/ShohanSaverimuttu/static/media/ShohanAnthony_CV.63bb22c5.pdf",
     "static/media/comingSoon.png": "/ShohanSaverimuttu/static/media/comingSoon.b289400c.png",
     "static/media/earth.jpg": "/ShohanSaverimuttu/static/media/earth.67af05e1.jpg",
     "static/media/font-awesome.css": "/ShohanSaverimuttu/static/media/fontawesome-webfont.fee66e71.woff",
@@ -38,8 +38,8 @@
   "entrypoints": [
     "static/js/runtime-main.7ea3b8eb.js",
     "static/css/2.f6122f81.chunk.css",
-    "static/js/2.06a88891.chunk.js",
+    "static/js/2.b20df316.chunk.js",
     "static/css/main.f4f0d9c2.chunk.css",
-    "static/js/main.8fb7785f.chunk.js"
+    "static/js/main.ad86d34d.chunk.js"
   ]
 }
